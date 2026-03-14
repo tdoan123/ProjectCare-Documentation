@@ -1,41 +1,61 @@
-# Website
+# ProjectCare Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Technical documentation site for **TeamYellow's ProjectCare** — an ASP.NET Core MVC Healthcare Client Management System. Built with [Docusaurus](https://docusaurus.io/) and deployed to GitHub Pages.
 
-## Installation
+## Live Site
+
+[https://tdoan123.github.io/ProjectCare-Documentation/](https://tdoan123.github.io/ProjectCare-Documentation/)
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) v20 or higher
+- npm (comes with Node.js)
+
+## Getting Started
+
+### 1. Clone the repository
 
 ```bash
-yarn
+git clone https://github.com/tdoan123/ProjectCare-Documentation.git
+cd ProjectCare-Documentation
 ```
 
-## Local Development
+### 2. Install dependencies
 
 ```bash
-yarn start
+npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### 3. Start the local development server
+
+```bash
+npm start
+```
+
+This opens the site at `http://localhost:3000/ProjectCare-Documentation/` and hot-reloads on file changes.
+
+## Adding or Editing Documentation
+
+All documentation lives in the [`docs/`](docs/) folder as Markdown (`.md`) files. The sidebar is auto-generated from the folder structure.
+
+| File | Content |
+| ---- | ------- |
+| `docs/intro.md` | Project overview |
+| `docs/database-schema-fixed.md` | Database schema |
+| `docs/controller-inventory.md` | Controller reference |
+| `docs/subscription-flow-diagrams.md` | Subscription flow diagrams |
+| `docs/usecase-system.md` | Use case system diagrams |
+
+To add a new page, create a `.md` file in `docs/` — it will appear in the sidebar automatically.
 
 ## Build
 
 ```bash
-yarn build
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Generates a static site into the `build/` directory.
 
 ## Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Deployment is automated via GitHub Actions on every push to `main`. The site is published to the `gh-pages` branch automatically — no manual steps needed.
