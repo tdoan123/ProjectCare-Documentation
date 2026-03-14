@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
     // GitHub Pages deployment config
-  url: 'https://github.com/tdoan123/ProjectCare-Documentation.git',
+  url: 'https://tdoan123.github.io',
   baseUrl: '/ProjectCare-Documentation/',
   
   organizationName: 'tdoan123', 
@@ -40,6 +40,21 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    function ignoreVscodeLspWarning() {
+      return {
+        name: 'ignore-vscode-languageserver-types-warning',
+        configureWebpack() {
+          return {
+            ignoreWarnings: [
+              { module: /vscode-languageserver-types/ },
+            ],
+          };
+        },
+      };
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -52,21 +67,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -120,19 +121,6 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/tdoan123/ProjectCare-Documentation',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
