@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-controller-inventory" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Controller Method Inventory | TeamYellow Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://tdoan123.github.io/ProjectCare-Documentation/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://tdoan123.github.io/ProjectCare-Documentation/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://tdoan123.github.io/ProjectCare-Documentation/docs/controller-inventory"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Controller Method Inventory | TeamYellow Documentation"><meta data-rh="true" name="description" content="Complete reference of all controllers and their methods in TeamYellow."><meta data-rh="true" property="og:description" content="Complete reference of all controllers and their methods in TeamYellow."><link data-rh="true" rel="icon" href="/ProjectCare-Documentation/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://tdoan123.github.io/ProjectCare-Documentation/docs/controller-inventory"><link data-rh="true" rel="alternate" href="https://tdoan123.github.io/ProjectCare-Documentation/docs/controller-inventory" hreflang="en"><link data-rh="true" rel="alternate" href="https://tdoan123.github.io/ProjectCare-Documentation/docs/controller-inventory" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Controller Method Inventory","item":"https://tdoan123.github.io/ProjectCare-Documentation/docs/controller-inventory"}]}</script><link rel="stylesheet" href="/ProjectCare-Documentation/assets/css/styles.9843d6b2.css">
+<script src="/ProjectCare-Documentation/assets/js/runtime~main.5ba9441f.js" defer="defer"></script>
+<script src="/ProjectCare-Documentation/assets/js/main.279c8e33.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/ProjectCare-Documentation/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ProjectCare-Documentation/"><div class="navbar__logo"><img src="/ProjectCare-Documentation/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/ProjectCare-Documentation/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">My Site</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ProjectCare-Documentation/docs/">Documentation</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/tdoan123/ProjectCare-Documentation" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ProjectCare-Documentation/docs/"><span title="TeamYellow Documentation" class="linkLabel_WmDU">TeamYellow Documentation</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ProjectCare-Documentation/docs/subscription-flow-diagrams"><span title="Subscription Flow Diagrams" class="linkLabel_WmDU">Subscription Flow Diagrams</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/ProjectCare-Documentation/docs/controller-inventory"><span title="Controller Method Inventory" class="linkLabel_WmDU">Controller Method Inventory</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ProjectCare-Documentation/docs/database-schema-fixed"><span title="Database Design" class="linkLabel_WmDU">Database Design</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ProjectCare-Documentation/docs/usecase-system"><span title="Use Case Diagram: TeamYellow System" class="linkLabel_WmDU">Use Case Diagram: TeamYellow System</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/ProjectCare-Documentation/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Controller Method Inventory</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Controller Method Inventory</h1></header>
+<p>Complete reference of all controllers and their methods in TeamYellow.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="homecontroller">HomeController<a href="#homecontroller" class="hash-link" aria-label="Direct link to HomeController" title="Direct link to HomeController" translate="no">​</a></h2>
+<p><strong>Authorization:</strong> None (public)
+<strong>Dependencies:</strong> <code>ILogger&lt;HomeController&gt;</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="methods">Methods<a href="#methods" class="hash-link" aria-label="Direct link to Methods" title="Direct link to Methods" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-index--get-">1. <code>Index()</code> — GET <code>/</code><a href="#1-index--get-" class="hash-link" aria-label="Direct link to 1-index--get-" title="Direct link to 1-index--get-" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Auth:</strong> Public (no attribute)</li>
+<li class=""><strong>Returns:</strong> View or redirect</li>
+<li class=""><strong>Business Rules:</strong>
+<ul>
+<li class="">If authenticated AND role = <code>Administrator</code> → redirect to <code>Admin/UserRoleIndex</code></li>
+<li class="">⚠️ TODO: Commented-out redirects for <code>Manager</code> and <code>Paid_Counselor</code>/<code>Free_Counselor</code> roles</li>
+<li class="">Otherwise → return Home Index view (landing page)</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-privacy--get-homeprivacy">2. <code>Privacy()</code> — GET <code>/Home/Privacy</code><a href="#2-privacy--get-homeprivacy" class="hash-link" aria-label="Direct link to 2-privacy--get-homeprivacy" title="Direct link to 2-privacy--get-homeprivacy" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Returns:</strong> Privacy policy view (no logic)</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-error--get-homeerror">3. <code>Error()</code> — GET <code>/Home/Error</code><a href="#3-error--get-homeerror" class="hash-link" aria-label="Direct link to 3-error--get-homeerror" title="Direct link to 3-error--get-homeerror" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Cache:</strong> <code>NoStore</code></li>
+<li class=""><strong>Returns:</strong> Error view with <code>RequestId</code> from <code>Activity.Current</code> or <code>HttpContext.TraceIdentifier</code></li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="admincontroller">AdminController<a href="#admincontroller" class="hash-link" aria-label="Direct link to AdminController" title="Direct link to AdminController" translate="no">​</a></h2>
+<p><strong>Authorization:</strong> <code>[Authorize(Roles = &quot;Administrator&quot;)]</code> — all methods
+<strong>Dependencies:</strong> <code>RoleRepository</code>, <code>UserRepository</code>, <code>UserRoleRepository</code>, <code>UserLogRepository</code>, <code>ILogger</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="methods-1">Methods<a href="#methods-1" class="hash-link" aria-label="Direct link to Methods" title="Direct link to Methods" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-userroleindex--get-adminuserroleindex">1. <code>UserRoleIndex()</code> — GET <code>/Admin/UserRoleIndex</code><a href="#1-userroleindex--get-adminuserroleindex" class="hash-link" aria-label="Direct link to 1-userroleindex--get-adminuserroleindex" title="Direct link to 1-userroleindex--get-adminuserroleindex" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Calls:</strong> <code>_userRepository.GetAllUsersAsync()</code></li>
+<li class=""><strong>Returns:</strong> View with list of <code>UserVM</code> (email only)</li>
+<li class=""><strong>Purpose:</strong> Entry point for admin — lists all Identity users</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-userroledetailusername-message-iserror--get-adminuserroledetail">2. <code>UserRoleDetail(userName, message, isError)</code> — GET <code>/Admin/UserRoleDetail</code><a href="#2-userroledetailusername-message-iserror--get-adminuserroledetail" class="hash-link" aria-label="Direct link to 2-userroledetailusername-message-iserror--get-adminuserroledetail" title="Direct link to 2-userroledetailusername-message-iserror--get-adminuserroledetail" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Params:</strong> <code>string userName</code>, <code>string message = &quot;&quot;</code>, <code>bool isError = false</code></li>
+<li class=""><strong>Calls:</strong> <code>_userRoleRepository.GetUserRolesAsync(userName)</code></li>
+<li class=""><strong>Returns:</strong> View with list of <code>UserRoleVM</code>, passes message/isError via <code>ViewBag</code></li>
+<li class=""><strong>Purpose:</strong> Shows all roles assigned to a specific user</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-userrolecreateemail--get-adminuserrolecreate">3. <code>UserRoleCreate(email?)</code> — GET <code>/Admin/UserRoleCreate</code><a href="#3-userrolecreateemail--get-adminuserrolecreate" class="hash-link" aria-label="Direct link to 3-userrolecreateemail--get-adminuserrolecreate" title="Direct link to 3-userrolecreateemail--get-adminuserrolecreate" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Calls:</strong> <code>_roleRepository.GetRoleSelectListAsync()</code>, <code>_userRepository.GetUserSelectListAsync(email)</code></li>
+<li class=""><strong>Returns:</strong> Create form with role and user dropdowns</li>
+<li class=""><strong>Purpose:</strong> Display form to assign role to user</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-userrolecreateuserrolevm--post-adminuserrolecreate">4. <code>UserRoleCreate(UserRoleVM)</code> — POST <code>/Admin/UserRoleCreate</code><a href="#4-userrolecreateuserrolevm--post-adminuserrolecreate" class="hash-link" aria-label="Direct link to 4-userrolecreateuserrolevm--post-adminuserrolecreate" title="Direct link to 4-userrolecreateuserrolevm--post-adminuserrolecreate" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Params:</strong> <code>UserRoleVM</code> (Email, RoleName)</li>
+<li class=""><strong>Validation:</strong> <code>ModelState.IsValid</code></li>
+<li class=""><strong>Calls:</strong> <code>_userRoleRepository.AddUserRoleAsync(email, roleName)</code></li>
+<li class=""><strong>Success:</strong> Redirect to <code>UserRoleDetail</code> with success message</li>
+<li class=""><strong>Failure:</strong> Re-render form with error (&quot;role might already exist for this user&quot;)</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-userroledeleteemail-rolename--get-adminuserroledelete">5. <code>UserRoleDelete(email, roleName)</code> — GET <code>/Admin/UserRoleDelete</code><a href="#5-userroledeleteemail-rolename--get-adminuserroledelete" class="hash-link" aria-label="Direct link to 5-userroledeleteemail-rolename--get-adminuserroledelete" title="Direct link to 5-userroledeleteemail-rolename--get-adminuserroledelete" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Params:</strong> <code>string email</code>, <code>string roleName</code></li>
+<li class=""><strong>Business Rule:</strong> If email or roleName is empty → redirect to <code>UserRoleIndex</code> with error</li>
+<li class=""><strong>Returns:</strong> Confirmation view with <code>UserRoleVM</code></li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-userroledeleteuserrolevm--post-adminuserroledelete">6. <code>UserRoleDelete(UserRoleVM)</code> — POST <code>/Admin/UserRoleDelete</code><a href="#6-userroledeleteuserrolevm--post-adminuserroledelete" class="hash-link" aria-label="Direct link to 6-userroledeleteuserrolevm--post-adminuserroledelete" title="Direct link to 6-userroledeleteuserrolevm--post-adminuserroledelete" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Params:</strong> <code>UserRoleVM</code></li>
+<li class=""><strong>Validation:</strong> <code>ModelState.IsValid</code> + Anti-forgery token</li>
+<li class=""><strong>Critical Business Rule:</strong> If <code>RoleName == &quot;Administrator&quot;</code> AND <code>Email == currentUser.Email</code> → BLOCK with error (&quot;You cannot remove the Administrator role from your own account.&quot;)</li>
+<li class=""><strong>Calls:</strong> <code>_userRoleRepository.RemoveUserRoleAsync(email, roleName)</code></li>
+<li class=""><strong>Success:</strong> Redirect to <code>UserRoleDetail</code> with success message</li>
+<li class=""><strong>Failure:</strong> Re-render with error</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-roleindexmessage--get-adminroleindex">7. <code>RoleIndex(message)</code> — GET <code>/Admin/RoleIndex</code><a href="#7-roleindexmessage--get-adminroleindex" class="hash-link" aria-label="Direct link to 7-roleindexmessage--get-adminroleindex" title="Direct link to 7-roleindexmessage--get-adminroleindex" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Calls:</strong> <code>_roleRepository.GetAllRolesVMAsync()</code></li>
+<li class=""><strong>Returns:</strong> View with list of <code>RoleVM</code>, message in <code>ViewBag</code></li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-rolecreate--get-adminrolecreate">8. <code>RoleCreate()</code> — GET <code>/Admin/RoleCreate</code><a href="#8-rolecreate--get-adminrolecreate" class="hash-link" aria-label="Direct link to 8-rolecreate--get-adminrolecreate" title="Direct link to 8-rolecreate--get-adminrolecreate" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Returns:</strong> Create form with empty <code>RoleVM</code></li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-rolecreaterolevm--post-adminrolecreate">9. <code>RoleCreate(RoleVM)</code> — POST <code>/Admin/RoleCreate</code><a href="#9-rolecreaterolevm--post-adminrolecreate" class="hash-link" aria-label="Direct link to 9-rolecreaterolevm--post-adminrolecreate" title="Direct link to 9-rolecreaterolevm--post-adminrolecreate" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Params:</strong> <code>RoleVM</code> (RoleName)</li>
+<li class=""><strong>Validation:</strong> <code>ModelState.IsValid</code></li>
+<li class=""><strong>Calls:</strong> <code>_roleRepository.CreateRoleAsync(roleName)</code></li>
+<li class=""><strong>Success:</strong> Redirect to <code>RoleIndex</code> with success message</li>
+<li class=""><strong>Failure:</strong> Re-render with error (&quot;may already exist&quot;)</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-roledeleterolename--get-adminroledelete">10. <code>RoleDelete(roleName)</code> — GET <code>/Admin/RoleDelete</code><a href="#10-roledeleterolename--get-adminroledelete" class="hash-link" aria-label="Direct link to 10-roledeleterolename--get-adminroledelete" title="Direct link to 10-roledeleterolename--get-adminroledelete" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Business Rule:</strong> If roleName empty → redirect to <code>RoleIndex</code> with error</li>
+<li class=""><strong>Business Rule:</strong> If role not found → redirect to <code>RoleIndex</code> with error</li>
+<li class=""><strong>Returns:</strong> Confirmation view with <code>RoleVM</code></li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-roledeleterolevm--post-adminroledelete">11. <code>RoleDelete(RoleVM)</code> — POST <code>/Admin/RoleDelete</code><a href="#11-roledeleterolevm--post-adminroledelete" class="hash-link" aria-label="Direct link to 11-roledeleterolevm--post-adminroledelete" title="Direct link to 11-roledeleterolevm--post-adminroledelete" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Validation:</strong> <code>ModelState.IsValid</code> + Anti-forgery token</li>
+<li class=""><strong>Calls:</strong> <code>_roleRepository.DeleteRoleAsync(roleName)</code></li>
+<li class=""><strong>Business Rule:</strong> Delete fails if users are currently assigned to this role</li>
+<li class=""><strong>Success:</strong> Redirect to <code>RoleIndex</code></li>
+<li class=""><strong>Failure:</strong> Re-render (&quot;may have users attached&quot;)</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-userlogall--get-adminuserlogall">12. <code>UserLogAll()</code> — GET <code>/Admin/UserLogAll</code><a href="#12-userlogall--get-adminuserlogall" class="hash-link" aria-label="Direct link to 12-userlogall--get-adminuserlogall" title="Direct link to 12-userlogall--get-adminuserlogall" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Calls:</strong> <code>_userLogRepository.GetAllAsync()</code></li>
+<li class=""><strong>Returns:</strong> View with list of <code>UserLogVM</code> (sorted by LogInTime DESC)</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="plancontroller">PlanController<a href="#plancontroller" class="hash-link" aria-label="Direct link to PlanController" title="Direct link to PlanController" translate="no">​</a></h2>
+<p><strong>Authorization:</strong> <code>[Authorize]</code> (class-level), overridden per method
+<strong>Dependencies:</strong> <code>IPlanService</code>, <code>ICounsellorRepository</code>, <code>ISubscriptionRepository</code>, <code>UserManager&lt;IdentityUser&gt;</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="methods-2">Methods<a href="#methods-2" class="hash-link" aria-label="Direct link to Methods" title="Direct link to Methods" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-index--get-plan">1. <code>Index()</code> — GET <code>/Plan</code><a href="#1-index--get-plan" class="hash-link" aria-label="Direct link to 1-index--get-plan" title="Direct link to 1-index--get-plan" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Auth:</strong> <code>[AllowAnonymous]</code> — public</li>
+<li class=""><strong>Calls:</strong>
+<ul>
+<li class=""><code>_planService.GetActivePlans()</code> (always)</li>
+<li class="">If authenticated AND <code>Paid_Counselor</code>:<!-- -->
+<ul>
+<li class=""><code>_userManager.GetUserAsync(User)</code></li>
+<li class=""><code>_counsellorRepository.GetByUserIdAsync(user.Id)</code></li>
+<li class=""><code>_subscriptionRepository.GetActiveSubscriptionByCounsellorId(counsellorId)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><strong>Returns:</strong> View with <code>List&lt;PlanVM&gt;</code></li>
+<li class=""><strong>Business Rule:</strong> If user is <code>Paid_Counselor</code>, injects <code>ViewData[&quot;CurrentPlanId&quot;]</code> so the view can highlight their active plan</li>
+<li class=""><strong>Notes:</strong> Free and non-authenticated users see all plans with no highlighting</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-checkoutid--get-plancheckoutid">2. <code>Checkout(id)</code> — GET <code>/Plan/Checkout/{id}</code><a href="#2-checkoutid--get-plancheckoutid" class="hash-link" aria-label="Direct link to 2-checkoutid--get-plancheckoutid" title="Direct link to 2-checkoutid--get-plancheckoutid" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Auth:</strong> <code>[Authorize(Roles = &quot;Registered_Visitor,Paid_Counselor,Free_Counselor&quot;)]</code></li>
+<li class=""><strong>Params:</strong> <code>int id</code> (PlanId)</li>
+<li class=""><strong>Calls:</strong>
+<ul>
+<li class=""><code>_planService.GetPlanById(id)</code></li>
+<li class="">If <code>Paid_Counselor</code>: <code>_counsellorRepository.GetByUserIdAsync</code>, <code>_subscriptionRepository.GetActiveSubscriptionByCounsellorId</code></li>
+</ul>
+</li>
+<li class=""><strong>Business Rules:</strong>
+<ul>
+<li class="">If plan not found or <code>!IsActive</code> → <code>NotFound()</code></li>
+<li class="">If <code>Free_Counselor</code> AND <code>plan.Price == 0</code> → redirect to Plan Index with error (&quot;already subscribed to this plan&quot;)</li>
+<li class="">If <code>Paid_Counselor</code> AND <code>plan.Price == 0</code> → redirect to Plan Index with error (&quot;cannot downgrade to Free plan from here&quot;)</li>
+<li class="">If <code>Paid_Counselor</code> AND <code>subscription.PlanId == id</code> → redirect with error (&quot;already subscribed to this plan&quot;)</li>
+</ul>
+</li>
+<li class=""><strong>Returns:</strong> Checkout view with <code>PlanVM</code></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="private-helpers">Private Helpers<a href="#private-helpers" class="hash-link" aria-label="Direct link to Private Helpers" title="Direct link to Private Helpers" translate="no">​</a></h3>
+<div class="language-csharp codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-csharp codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">private static PlanVM MapToPlanVM(Plan plan)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">// Maps Plan → PlanVM with features collection</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="subscriptioncontroller">SubscriptionController<a href="#subscriptioncontroller" class="hash-link" aria-label="Direct link to SubscriptionController" title="Direct link to SubscriptionController" translate="no">​</a></h2>
+<p><strong>Authorization:</strong> <code>[Authorize(Roles = &quot;Registered_Visitor,Paid_Counselor,Free_Counselor&quot;)]</code>
+<strong>Dependencies:</strong> <code>ISubscriptionService</code>, <code>UserManager</code>, <code>ICounsellorRepository</code>, <code>ISubscriptionRepository</code>, <code>SignInManager</code>, <code>ILogger</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="methods-3">Methods<a href="#methods-3" class="hash-link" aria-label="Direct link to Methods" title="Direct link to Methods" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-subscribeplanid--post-subscriptionsubscribe">1. <code>Subscribe(planId)</code> — POST <code>/Subscription/Subscribe</code><a href="#1-subscribeplanid--post-subscriptionsubscribe" class="hash-link" aria-label="Direct link to 1-subscribeplanid--post-subscriptionsubscribe" title="Direct link to 1-subscribeplanid--post-subscriptionsubscribe" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Auth:</strong> <code>[ValidateAntiForgeryToken]</code></li>
+<li class=""><strong>Params:</strong> <code>int planId</code></li>
+<li class=""><strong>Full Flow:</strong>
+<ol>
+<li class="">Get current <code>IdentityUser</code> → if null, return <code>Unauthorized()</code></li>
+<li class="">Generate <code>returnUrl</code> and <code>cancelUrl</code> for PayPal callbacks</li>
+<li class="">Find <code>Counsellor</code> by <code>user.Id</code>
+<ul>
+<li class=""><strong>If no counsellor exists:</strong> Auto-generate unique <code>PractitionerLicenceId</code> (format: <code>[A-Z][0-9]{6}</code>) and call <code>_counsellorRepository.CreateAsync()</code></li>
+</ul>
+</li>
+<li class="">Check <code>_subscriptionRepository.GetActiveSubscriptionByCounsellorId()</code> → if already subscribed to <code>planId</code>, redirect with error</li>
+<li class="">Call <code>_subscriptionService.CreatePayPalOrder(planId, returnUrl, cancelUrl)</code></li>
+</ol>
+<ul>
+<li class=""><strong>Free plan path</strong> (returns empty string):<!-- -->
+<ul>
+<li class=""><code>_subscriptionService.SubscribeFree(counsellorId, userName, planId)</code></li>
+<li class=""><code>AssignCounsellorRole(userId, &quot;Free_Counselor&quot;)</code></li>
+<li class="">Return <code>Success</code> view with <code>SubscriptionSuccessVM</code></li>
+</ul>
+</li>
+<li class=""><strong>Paid plan path</strong> (returns PayPal URL):<!-- -->
+<ul>
+<li class=""><code>return Redirect(approvalUrl)</code> → user goes to PayPal</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><strong>Error Handling:</strong> <code>KeyNotFoundException</code> → 404; all others → log error + redirect to Plan Index</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-successorderid--get-subscriptionsuccesstokenorderid">2. <code>Success(orderId)</code> — GET <code>/Subscription/Success?token={orderId}</code><a href="#2-successorderid--get-subscriptionsuccesstokenorderid" class="hash-link" aria-label="Direct link to 2-successorderid--get-subscriptionsuccesstokenorderid" title="Direct link to 2-successorderid--get-subscriptionsuccesstokenorderid" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Params:</strong> <code>[FromQuery(Name = &quot;token&quot;)] string orderId</code> (PayPal returns this)</li>
+<li class=""><strong>Full Flow:</strong>
+<ol>
+<li class="">If <code>orderId</code> is empty → redirect to Home Index with error</li>
+<li class="">Get current user → if null, <code>Unauthorized()</code></li>
+<li class="">Find counsellor by userId → if null, redirect Home with error</li>
+<li class=""><code>_subscriptionService.CompletePayPalSubscription(orderId, counsellorId, userName)</code>
+<ul>
+<li class="">Returns <code>SubscriptionResult.AlreadySubscribed</code> → redirect to Plan Index</li>
+</ul>
+</li>
+<li class=""><code>AssignCounsellorRole(userId, &quot;Paid_Counselor&quot;)</code></li>
+<li class="">Fetch updated subscription and build <code>SubscriptionSuccessVM</code></li>
+<li class="">Return <code>Success</code> view</li>
+</ol>
+</li>
+<li class=""><strong>Error Handling:</strong> Any exception → redirect to Home Index (&quot;Payment failed. Please try again.&quot;)</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-cancel--get-subscriptioncancel">3. <code>Cancel()</code> — GET <code>/Subscription/Cancel</code><a href="#3-cancel--get-subscriptioncancel" class="hash-link" aria-label="Direct link to 3-cancel--get-subscriptioncancel" title="Direct link to 3-cancel--get-subscriptioncancel" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Returns:</strong> Cancel view (no logic — user aborted PayPal payment)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="private-helpers-1">Private Helpers<a href="#private-helpers-1" class="hash-link" aria-label="Direct link to Private Helpers" title="Direct link to Private Helpers" translate="no">​</a></h3>
+<div class="language-csharp codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-csharp codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">private async Task AssignCounsellorRole(string userId, string targetRole)</span><br></span></code></pre></div></div>
+<ul>
+<li class=""><strong>Logic:</strong>
+<ol>
+<li class="">Find user by ID</li>
+<li class="">Remove all of: <code>Registered_Visitor</code>, <code>Free_Counselor</code>, <code>Paid_Counselor</code></li>
+<li class="">Add <code>targetRole</code> if not already assigned</li>
+<li class=""><code>_signInManager.RefreshSignInAsync(user)</code> — refreshes auth cookie so new role takes effect immediately</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="business-rules-summary-cross-controller">Business Rules Summary (Cross-Controller)<a href="#business-rules-summary-cross-controller" class="hash-link" aria-label="Direct link to Business Rules Summary (Cross-Controller)" title="Direct link to Business Rules Summary (Cross-Controller)" translate="no">​</a></h2>
+<table><thead><tr><th>Rule</th><th>Where Enforced</th></tr></thead><tbody><tr><td>Admin cannot remove own Administrator role</td><td><code>AdminController.UserRoleDelete</code> (POST)</td></tr><tr><td>Role deletion blocked if users assigned</td><td><code>RoleRepository.DeleteRoleAsync</code></td></tr><tr><td>Free_Counselor cannot re-subscribe to Free plan</td><td><code>PlanController.Checkout</code></td></tr><tr><td>Paid_Counselor cannot downgrade to Free via Checkout</td><td><code>PlanController.Checkout</code></td></tr><tr><td>Paid_Counselor cannot subscribe to current plan again</td><td><code>PlanController.Checkout</code> + <code>SubscriptionController.Subscribe</code></td></tr><tr><td>Auto-create Counsellor profile on first subscribe</td><td><code>SubscriptionController.Subscribe</code></td></tr><tr><td>PractitionerLicenceId must be unique (retry loop)</td><td><code>SubscriptionController.Subscribe</code></td></tr><tr><td>Duplicate PayPal payment prevention</td><td><code>TransactionRepository.ExistsByProviderOrderId</code></td></tr><tr><td>Subscription cycle: 1 year for Yearly, 1 month otherwise</td><td><code>SubscriptionRepository.CreateSubscription</code></td></tr><tr><td>Role refresh after subscription (cookie refresh)</td><td><code>SubscriptionController.AssignCounsellorRole</code></td></tr></tbody></table></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/controller-inventory.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/ProjectCare-Documentation/docs/subscription-flow-diagrams"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Subscription Flow Diagrams</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ProjectCare-Documentation/docs/database-schema-fixed"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Database Design</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#homecontroller" class="table-of-contents__link toc-highlight">HomeController</a><ul><li><a href="#methods" class="table-of-contents__link toc-highlight">Methods</a></li></ul></li><li><a href="#admincontroller" class="table-of-contents__link toc-highlight">AdminController</a><ul><li><a href="#methods-1" class="table-of-contents__link toc-highlight">Methods</a></li></ul></li><li><a href="#plancontroller" class="table-of-contents__link toc-highlight">PlanController</a><ul><li><a href="#methods-2" class="table-of-contents__link toc-highlight">Methods</a></li><li><a href="#private-helpers" class="table-of-contents__link toc-highlight">Private Helpers</a></li></ul></li><li><a href="#subscriptioncontroller" class="table-of-contents__link toc-highlight">SubscriptionController</a><ul><li><a href="#methods-3" class="table-of-contents__link toc-highlight">Methods</a></li><li><a href="#private-helpers-1" class="table-of-contents__link toc-highlight">Private Helpers</a></li></ul></li><li><a href="#business-rules-summary-cross-controller" class="table-of-contents__link toc-highlight">Business Rules Summary (Cross-Controller)</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ProjectCare-Documentation/docs/">Documentation</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/tdoan123/ProjectCare-Documentation" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
