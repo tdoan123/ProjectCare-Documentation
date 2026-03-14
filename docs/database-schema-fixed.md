@@ -5,6 +5,7 @@
 **DbContext:** `ApplicationDbContext` extends `IdentityDbContext`
 
 ---
+
 ## ER Diagram
 
 ```mermaid
@@ -124,7 +125,6 @@ erDiagram
 
 ---
 
-
 ## Entity: Plan
 
 ```csharp
@@ -147,6 +147,7 @@ public class Plan
 **Relationships:** Has many PlanFeatures, Subscriptions, PlanDiscounts
 
 **Seeded Data:**
+
 | PlanId | PlanName | Price | BillingType |
 |--------|---------|-------|------------|
 | 1 | Free | 0.00 | Free |
@@ -196,6 +197,7 @@ public class Discount
 **Properties:** DiscountId (PK), DiscountCode (unique), DiscountType ("%" or "$"), Value, StartDateTime, EndDateTime, CreatedAt (auto)
 
 **Seeded Data:**
+
 | DiscountId | DiscountCode | Type | Value | Applies To |
 |-----------|-------------|------|-------|-----------|
 | 1 | WELCOME10 | % | 10.00 | Monthly, Yearly |
@@ -289,6 +291,7 @@ public class Subscription
 
 **Properties:** SubscriptionId (PK), Status (string), CycleStart, CycleEnd, UpdatedAt, PlanId (FK), CounsellorId (FK)
 **Relationships:**
+
 - Many-to-one → Plan (restrict delete)
 - Many-to-one → Counsellor (restrict delete)
 - One-to-one → PaymentTransaction (optional, owned by transaction)
@@ -321,6 +324,7 @@ public class PaymentTransaction
 
 **Properties:** PaymentTransactionId (PK), PayerName, Amount, Currency (3-char, default "CAD"), Provider (default "PayPal"), ProviderOrderId, Status, PaidAt (auto), SubscriptionId (unique FK), DiscountId (nullable FK)
 **Relationships:**
+
 - One-to-one → Subscription (cascade delete)
 - Many-to-one → Discount (set null on delete)
 

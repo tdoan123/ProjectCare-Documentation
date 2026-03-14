@@ -20,16 +20,19 @@ TeamYellow allows counsellors to subscribe to different service tiers (Free, Mon
 ## Quick Links
 
 📚 **Architecture**
+
 - [Database Design](./database-schema-fixed) - Entity model and ER diagram
 - [Controller Inventory](./controller-inventory) - All controllers and their responsibilities
 
 🔄 **Workflows**
+
 - [Subscription Flow](./subscription-flow-diagrams) - Free and Paid subscription processes
 - [Use Case Diagram](./usecase-system) - System actors and interactions
 
 ---
 
 ## Team
+
  **Mahima** - **Sussie** - **Jimmy** - **Zhuldyz** - **Thinh**
 
 ---
